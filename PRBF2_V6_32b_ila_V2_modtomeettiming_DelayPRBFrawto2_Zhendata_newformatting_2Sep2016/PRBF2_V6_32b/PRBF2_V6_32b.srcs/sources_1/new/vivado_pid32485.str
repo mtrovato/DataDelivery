@@ -1,0 +1,530 @@
+/*
+
+Vivado v2015.1 (64-bit)
+SW Build 1215546 on Mon Apr 27 19:07:21 MDT 2015
+Process ID: 32485
+
+Current time: 	7/7/16 10:10:53 PM CDT
+Time zone: 	Central Standard Time (US/Central)
+
+OS: CentOS release 6.5 (Final)
+Version: 2.6.32-431.23.3.el6.x86_64
+Architecture: amd64
+Available processors (cores): 8
+
+DISPLAY: localhost:11.0
+Screen size: 1680x1028
+Screen resolution (DPI): 95
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_25 64-bit
+Java home: 	/home/xilinx/Vivado/2015.1/tps/lnx64/jre
+
+User name: 	root
+User directory: /home/xilinx/PRB/PRBF2_V6_32b_ila_V2_modtomeettiming/PRBF2_V6_32b/PRBF2_V6_32b.srcs/sources_1/new
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+Vivado preferences path: /root/.Xilinx/Vivado/2015.1/vivado.ini
+Vivado layouts directory: /root/.Xilinx/Vivado/2015.1/layouts/application
+
+GUI allocated memory:	142 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 4,841 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// HMemoryUtils.trashcanNow. Engine heap size: 4,841 MB. GUI used memory: 27 MB. Current time: 7/7/16 10:11:07 PM CDT
+// [GUI Memory]: 27 MB (+26250kb) [00:00:59]
+// [Engine Memory]: 4,841 MB (+4924463kb) [00:00:59]
+selectList(PAResourceEtoH.GettingStartedView_RECENT_PROJECTS, "/home/xilinx/PRB/PRBF2_V6_32b_ila_V2_modtomeettiming/PRBF2_V6_32b/PRBF2_V6_32b.xpr", 0); // t:v (JViewport:JComponent, cl:JFrame)
+// Opening Vivado Project: /home/xilinx/PRB/PRBF2_V6_32b_ila_V2_modtomeettiming/PRBF2_V6_32b/PRBF2_V6_32b.xpr. Version: Vivado v2015.1 
+// cp:P (cl:JFrame):  Open Project : addNotify
+// Tcl Message: open_project /home/xilinx/PRB/PRBF2_V6_32b_ila_V2_modtomeettiming/PRBF2_V6_32b/PRBF2_V6_32b.xpr 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 39 MB (+10981kb) [00:02:11]
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 46 MB (+4576kb) [00:02:58]
+// [GUI Memory]: 63 MB (+16238kb) [00:03:03]
+// [GUI Memory]: 71 MB (+5037kb) [00:03:03]
+// [GUI Memory]: 77 MB (+2274kb) [00:04:44]
+// Tcl Message: open_project /home/xilinx/PRB/PRBF2_V6_32b_ila_V2_modtomeettiming/PRBF2_V6_32b/PRBF2_V6_32b.xpr 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,045 MB. GUI used memory: 53 MB. Current time: 7/7/16 10:14:52 PM CDT
+// Tcl Message: INFO: [Project 1-313] Project file moved from '/home/xilinx/PRB/PRBF2_V6_32b_ila_V2_/PRBF2_V6_32b' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/xilinx/Vivado/2015.1/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: PRBF2_V6_32b; location: /home/xilinx/PRB/PRBF2_V6_32b_ila_V2_modtomeettiming/PRBF2_V6_32b; part: xc7vx690tffg1927-2
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:04:25 . Memory (MB): peak = 5946.262 ; gain = 189.648 ; free physical = 15390 ; free virtual = 37409 
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 323 seconds
+dismissDialog("Open Project"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 84 MB (+2608kb) [00:08:42]
+// Elapsed time: 197 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 21, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// ap:bI (cl:JFrame): Out-of-Context module run(s) is/are Out-of-date: addNotify
+// Elapsed time: 34 seconds
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, ap:bI)
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, ap:bI)
+// 'c' command handler elapsed time: 34 seconds
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+dismissDialog("Out-of-Context module run(s) is/are Out-of-date"); // ap:bI (cl:JFrame)
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run FIFO_sort_by_BX_synth_1 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run: Time (s): cpu = 00:00:00.65 ; elapsed = 00:00:24 . Memory (MB): peak = 5948.262 ; gain = 0.000 ; free physical = 15373 ; free virtual = 37392 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run FIFO_sort_by_layer_synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run: Time (s): cpu = 00:00:00.75 ; elapsed = 00:00:39 . Memory (MB): peak = 5948.262 ; gain = 0.000 ; free physical = 15373 ; free virtual = 37391 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run clk_wiz_0_synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// [GUI Memory]: 89 MB (+1749kb) [00:12:51]
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run: Time (s): cpu = 00:00:00.48 ; elapsed = 00:00:29 . Memory (MB): peak = 5948.262 ; gain = 0.000 ; free physical = 15373 ; free virtual = 37391 
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run fifo_TX_RX_synth_1 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run: Time (s): cpu = 00:00:00.81 ; elapsed = 00:00:23 . Memory (MB): peak = 5948.262 ; gain = 0.000 ; free physical = 15372 ; free virtual = 37389 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run ila_stub_synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run: Time (s): cpu = 00:00:00.51 ; elapsed = 00:00:40 . Memory (MB): peak = 5948.262 ; gain = 0.000 ; free physical = 15375 ; free virtual = 37390 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run: Time (s): cpu = 00:00:01 ; elapsed = 00:00:41 . Memory (MB): peak = 5948.262 ; gain = 0.000 ; free physical = 15559 ; free virtual = 37393 
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Jul  7 22:27:12 2016] Launched impl_1... Run output will be captured here: /home/xilinx/PRB/PRBF2_V6_32b_ila_V2_modtomeettiming/PRBF2_V6_32b/PRBF2_V6_32b.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:03 ; elapsed = 00:01:26 . Memory (MB): peak = 5948.266 ; gain = 0.004 ; free physical = 14172 ; free virtual = 36004 
+// TclEventType: DG_GRAPH_STALE
+// [GUI Memory]: 95 MB (+1460kb) [00:17:33]
+// TclEventType: RUN_COMPLETED
+// TclEventType: DG_GRAPH_STALE
+// Elapsed time: 432 seconds
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_COMPLETED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_COMPLETED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_COMPLETED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_COMPLETED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_FAILED
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,047 MB. GUI used memory: 47 MB. Current time: 7/7/16 10:44:53 PM CDT
+// Elapsed time: 1664 seconds
+selectButton(PAResourceQtoS.RunGadget_SHOW_ERROR, "3 errors"); // i:l (JPanel:JComponent, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+// Elapsed time: 64 seconds
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 1); // g:JideTabbedPane (O:aK, cl:JFrame)
+// Elapsed time: 25 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, ila_stub]", 5, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, ila_stub, Simulation]", 8, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// 'H' command handler elapsed time: 3 seconds
+// TclEventType: LOAD_FEATURE
+// T:cp (cl:JFrame):  Re-customize IP : addNotify
+// t:P (cl:JFrame): Re-customize IP: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 5,070 MB. GUI used memory: 46 MB. Current time: 7/7/16 10:57:24 PM CDT
+// Elapsed time: 38 seconds
+dismissDialog("Re-customize IP"); // T:cp (cl:JFrame)
+// Elapsed time: 32 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Probe_Ports(0..0)", 1); // aM:g (G:JPanel, t:P)
+// Elapsed time: 69 seconds
+setText("Probe0 Width", "1"); // O:ao (aN:N, t:P)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, t:P)
+dismissDialog("Re-customize IP"); // t:P (cl:JFrame)
+// Elapsed time: 155 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, ila_stub, Instantiation Template]", 6, true); // A:k (H:JPanel, cl:JFrame) - Node
+// Elapsed time: 27 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, ila_stub]", 5, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, ila_stub]", 5, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// 'H' command handler elapsed time: 3 seconds
+// t:P (cl:JFrame): Re-customize IP: addNotify
+// Elapsed time: 27 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, ila_stub]", 5, true); // A:k (H:JPanel, cl:JFrame) - Node
+// Elapsed time: 51 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Probe_Ports(0..0)", 1); // aM:g (G:JPanel, t:P)
+// Elapsed time: 45 seconds
+setText("Probe0 Width", "1"); // O:ao (aN:N)
+// Elapsed time: 31 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, t:P)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, t:P)
+dismissDialog("Re-customize IP"); // t:P (cl:JFrame)
+// t:P (cl:JFrame): Re-customize IP: addNotify
+// cp:P (t:P):  Re-customize IP : addNotify
+// Tcl Message: set_property -dict [list CONFIG.C_PROBE0_WIDTH {1}] [get_ips ila_stub] 
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: DG_GRAPH_STALE
+// aB:ag (cl:JFrame): Generate Output Products: addNotify
+// Elapsed time: 38 seconds
+dismissDialog("Re-customize IP"); // cp:P (t:P)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Elapsed time: 48 seconds
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a:JButton (JPanel:JComponent, aB:ag)
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Elapsed time: 38 seconds
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a:JButton (JPanel:JComponent, aB:ag)
+selectButton("RDIResource.ProgressDialog_BACKGROUND_TASK_RUNNING_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, U:JDialog)
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 10 seconds
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a:JButton (JPanel:JComponent, aB:ag)
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+// Elapsed time: 45 seconds
+selectButton("RDIResource.ProgressDialog_BACKGROUND_TASK_RUNNING_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, U:JDialog)
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a:JButton (JPanel:JComponent, aB:ag)
+// cp:P (cl:JFrame):  Managing Output Products : addNotify
+// Tcl Message: generate_target all [get_files  /home/xilinx/PRB/PRBF2_V6_32b_ila_V2_modtomeettiming/PRBF2_V6_32b/PRBF2_V6_32b.srcs/sources_1/ip/ila_stub/ila_stub.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ila_stub'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ila_stub'... INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'ila_stub'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'ila_stub'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target: Time (s): cpu = 00:00:00.74 ; elapsed = 00:00:08 . Memory (MB): peak = 5992.027 ; gain = 0.000 ; free physical = 15517 ; free virtual = 37357 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run ila_stub_synth_1 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: launch_run -jobs 4 ila_stub_synth_1 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Jul  7 23:08:49 2016] Launched ila_stub_synth_1... Run output will be captured here: /home/xilinx/PRB/PRBF2_V6_32b_ila_V2_modtomeettiming/PRBF2_V6_32b/PRBF2_V6_32b.runs/ila_stub_synth_1/runme.log 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Elapsed time: 112 seconds
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_OUT_OF_CONTEXT_MODULE_RUNS_WERE_LAUNCHED_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, T:JDialog)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 54 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// ap:bI (cl:JFrame): No Implementation Results Available: addNotify
+// Elapsed time: 36 seconds
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, ap:bI)
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+dismissDialog("No Implementation Results Available"); // ap:bI (cl:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// 'bQ' command handler elapsed time: 57 seconds
+// Elapsed time: 27 seconds
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Jul  7 23:12:38 2016] Launched synth_1... Run output will be captured here: /home/xilinx/PRB/PRBF2_V6_32b_ila_V2_modtomeettiming/PRBF2_V6_32b/PRBF2_V6_32b.runs/synth_1/runme.log [Thu Jul  7 23:12:38 2016] Launched impl_1... Run output will be captured here: /home/xilinx/PRB/PRBF2_V6_32b_ila_V2_modtomeettiming/PRBF2_V6_32b/PRBF2_V6_32b.runs/impl_1/runme.log 
+// Elapsed time: 37 seconds
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 576 seconds
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,080 MB. GUI used memory: 51 MB. Current time: 7/7/16 11:27:24 PM CDT
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Bitstream Generation Completed: addNotify
+// [Engine Memory]: 5,092 MB (+10045kb) [01:37:40]
+// HMemoryUtils.trashcanNow. Engine heap size: 5,092 MB. GUI used memory: 48 MB. Current time: 7/7/16 11:47:48 PM CDT
+// Elapsed time: 1848 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// cp:P (cl:JFrame):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 5,287 MB. GUI used memory: 47 MB. Current time: 7/7/16 11:53:19 PM CDT
+// TclEventType: READ_XDC_FILE_START
+// Elapsed time: 16 seconds
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, cp:P)
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, cp:P)
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: DESIGN_CLOSE
+// [Engine Memory]: 5,584 MB (+248391kb) [01:43:19]
+// TclEventType: DESIGN_NEW_FAILED
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 64 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2015.1 INFO: [Device 21-403] Loading part xc7vx690tffg1927-2 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:00.14 ; elapsed = 00:00:00.08 . Memory (MB): peak = 6493.492 ; gain = 17.328 ; free physical = 15031 ; free virtual = 36940 open_run: Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 6499.148 ; gain = 492.535 ; free physical = 15036 ; free virtual = 36932 
+// Tcl Message: INFO: [Common 17-344] 'open_run' was cancelled 
+// 'dm' command handler elapsed time: 21 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+dismissDialog("Open Implemented Design"); // cp:P (cl:JFrame)
+// Elapsed time: 55 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+// Elapsed time: 19 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // X:JMenu (JPopupMenu:JComponent, cl:JFrame)
+// Elapsed time: 34 seconds
+selectMenuItem(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "/home/xilinx/PRB/aurora64b66b_40trans_2gtinstances_PRBF2IPmodtomeettiming_20062016_allsignalshortcircuited_4clkreplicainPRBF/newtop/newtop.xpr"); // ab:JMenuItem (JPopupMenu:JComponent, cl:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // R:JideMenu (CommandMenuBar:CommandBar, cl:JFrame)
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,580 MB. GUI used memory: 37 MB. Current time: 7/7/16 11:56:32 PM CDT
+// Opening Vivado Project: /home/xilinx/PRB/aurora64b66b_40trans_2gtinstances_PRBF2IPmodtomeettiming_20062016_allsignalshortcircuited_4clkreplicainPRBF/newtop/newtop.xpr. Version: Vivado v2015.1 
+// cp:P (cl:JFrame):  Open Project : addNotify
+// Elapsed time: 69 seconds
+selectButton("PAResourceOtoP.PABaseTab_WOULD_YOU_LIKE_TO_CLOSE_CURRENTLY_Yes", "Yes"); // JButton:AbstractButton (JPanel:JComponent, T:JDialog)
+// Tcl Message: close_project 
+// Tcl Message: close_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:28 . Memory (MB): peak = 6499.152 ; gain = 0.000 ; free physical = 15034 ; free virtual = 36931 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project /home/xilinx/PRB/aurora64b66b_40trans_2gtinstances_PRBF2IPmodtomeettiming_20062016_allsignalshortcircuited_4clkreplicainPRBF/newtop/newtop.xpr 
+// Tcl Message: open_project /home/xilinx/PRB/aurora64b66b_40trans_2gtinstances_PRBF2IPmodtomeettiming_20062016_allsignalshortcircuited_4clkreplicainPRBF/newtop/newtop.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/xilinx/PRB/aurora64b66b_40trans_2gtinstances_PRBF2IPmodtomeettiming_20062016_allsignalshortcircuited_4clkreplicainPRBF/gtwizard_0_example'. INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/xilinx/PRB/aurora64b66b_40trans_2gtinstances_PRBF2IPmodtomeettiming_20062016_allsignalshortcircuited_4clkreplicainPRBF/gtwizard_1_example'. INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/xilinx/PRB/PRBF2_V6_32b_IP_V2_modtomeettiming_moremod/PRBF2_V6_32b/PRBF2_V6_32b.srcs'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/xilinx/Vivado/2015.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 104 MB (+4481kb) [01:48:58]
+// [GUI Memory]: 110 MB (+279kb) [01:48:59]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 119 MB (+3487kb) [01:51:30]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:03:57 . Memory (MB): peak = 6499.152 ; gain = 0.000 ; free physical = 14992 ; free virtual = 36888 
+// Project name: newtop; location: /home/xilinx/PRB/aurora64b66b_40trans_2gtinstances_PRBF2IPmodtomeettiming_20062016_allsignalshortcircuited_4clkreplicainPRBF/newtop; part: xc7vx690tffg1927-2
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 332 seconds
+dismissDialog("Open Project"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 125 MB (+734kb) [01:52:49]
+// Elapsed time: 292 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// Elapsed time: 19 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// TclEventType: RUN_LAUNCH
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Jul  8 00:07:40 2016] Launched impl_1... Run output will be captured here: /home/xilinx/PRB/aurora64b66b_40trans_2gtinstances_PRBF2IPmodtomeettiming_20062016_allsignalshortcircuited_4clkreplicainPRBF/newtop/newtop.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:05 . Memory (MB): peak = 6499.152 ; gain = 0.000 ; free physical = 14993 ; free virtual = 36889 
+// Elapsed time: 48 seconds
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+// Elapsed time: 17 seconds
+selectButton(PAResourceQtoS.StateMonitor_CANCEL, "Cancel"); // a:JButton (r:JPanel, cl:JFrame)
+// cp:P (cl:JFrame):  Reset to Previous Step : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 -prev_step  
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// [GUI Memory]: 133 MB (+1052kb) [01:58:51]
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run: Time (s): cpu = 00:00:00.36 ; elapsed = 00:00:29 . Memory (MB): peak = 6499.152 ; gain = 0.000 ; free physical = 14673 ; free virtual = 36878 
+// Elapsed time: 67 seconds
+selectButton(PAResourceQtoS.StateMonitor_CANCEL, "Cancel"); // a:JButton (r:JPanel, cl:JFrame)
+dismissDialog("Reset to Previous Step"); // cp:P (cl:JFrame)
+// Elapsed time: 17 seconds
+selectTreeTableHeader(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "Name", 0); // W:av (JViewport:JComponent, cl:JFrame)
+// [GUI Memory]: 140 MB (+753kb) [01:59:46]
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "Out-of-Context Module Runs ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 0, "Out-of-Context Module Runs", 0, true); // W:av (JViewport:JComponent, cl:JFrame) - Node
+// Elapsed time: 133 seconds
+collapseTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "Out-of-Context Module Runs ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 0); // W:av (JViewport:JComponent, cl:JFrame)
+// PAPropertyPanels.initPanels (synth_1) elapsed time: 0.2s
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; synth_design Complete! ; 100 ;  ;  ;  ;  ;  ;  ; 0.0 ; 0 ; 0.009999999776482582 ; 66 ; 0.0 ; 0 ; 0.0 ; 0 ; Thu Jul 07 09:31:46 CDT 2016 ; 00:00:36 ; Vivado Synthesis Defaults (Vivado Synthesis 2015) ; xc7vx690tffg1927-2 ; nuhep-75.phys.northwestern.edu ; Vivado Synthesis Defaults", 1, "synth_1", 0, false); // W:av (JViewport:JComponent, cl:JFrame)
+// Elapsed time: 24 seconds
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; synth_design Complete! ; 100 ;  ;  ;  ;  ;  ;  ; 0.0 ; 0 ; 0.009999999776482582 ; 66 ; 0.0 ; 0 ; 0.0 ; 0 ; Thu Jul 07 09:31:46 CDT 2016 ; 00:00:36 ; Vivado Synthesis Defaults (Vivado Synthesis 2015) ; xc7vx690tffg1927-2 ; nuhep-75.phys.northwestern.edu ; Vivado Synthesis Defaults", 1, "synth_1", 0, false, false, false, false, true, false); // W:av (JViewport:JComponent, cl:JFrame) - Popup Trigger
+// Elapsed time: 19 seconds
+selectMenuItem(PAResourceCommand.PACommandNames_RESET_RUNS, "Reset Runs"); // ab:JMenuItem (ai:JPopupMenu, Popup:JWindow)
+// f:P (cl:JFrame): Reset Runs: addNotify
+// Elapsed time: 15 seconds
+selectButton(RDIResource.BaseDialog_OK, "Reset"); // a:JButton (JPanel:JComponent, f:P)
+// f:P (cl:JFrame): Reset Runs: addNotify
+// cp:P (f:P):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// [GUI Memory]: 150 MB (+3515kb) [02:03:45]
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run: Time (s): cpu = 00:00:02 ; elapsed = 00:00:41 . Memory (MB): peak = 6499.152 ; gain = 0.000 ; free physical = 15168 ; free virtual = 36877 
+// Elapsed time: 101 seconds
+selectButton(RDIResource.BaseDialog_OK, "Reset"); // a:JButton (JPanel:JComponent, f:P)
+dismissDialog("Resetting Runs"); // cp:P (f:P)
+// Elapsed time: 29 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// ap:bI (cl:JFrame): No Implementation Results Available: addNotify
+// Elapsed time: 28 seconds
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, ap:bI)
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, ap:bI)
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// 'bQ' command handler elapsed time: 36 seconds
+dismissDialog("No Implementation Results Available"); // ap:bI (cl:JFrame)
+// Elapsed time: 19 seconds
+dismissDialog("Resetting Runs"); // cp:P (cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// TclEventType: DG_GRAPH_STALE
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Jul  8 00:17:25 2016] Launched synth_1... Run output will be captured here: /home/xilinx/PRB/aurora64b66b_40trans_2gtinstances_PRBF2IPmodtomeettiming_20062016_allsignalshortcircuited_4clkreplicainPRBF/newtop/newtop.runs/synth_1/runme.log [Fri Jul  8 00:17:25 2016] Launched impl_1... Run output will be captured here: /home/xilinx/PRB/aurora64b66b_40trans_2gtinstances_PRBF2IPmodtomeettiming_20062016_allsignalshortcircuited_4clkreplicainPRBF/newtop/newtop.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:00.38 ; elapsed = 00:00:42 . Memory (MB): peak = 6499.152 ; gain = 0.000 ; free physical = 14991 ; free virtual = 36724 
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 95 seconds
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+// ak:a (cl:JFrame): Launch Run Critical Messages: addNotify
+// Elapsed time: 196 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, ak:a)
+dismissDialog("Launch Run Critical Messages"); // ak:a (cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,597 MB. GUI used memory: 81 MB. Current time: 7/8/16 12:26:36 AM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,597 MB. GUI used memory: 79 MB. Current time: 7/8/16 12:56:36 AM CDT
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Bitstream Generation Completed: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 5,597 MB. GUI used memory: 80 MB. Current time: 7/8/16 1:26:39 AM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,597 MB. GUI used memory: 80 MB. Current time: 7/8/16 1:56:39 AM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,597 MB. GUI used memory: 100 MB. Current time: 7/8/16 2:26:44 AM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,597 MB. GUI used memory: 106 MB. Current time: 7/8/16 2:56:45 AM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,597 MB. GUI used memory: 81 MB. Current time: 7/8/16 3:26:49 AM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,597 MB. GUI used memory: 81 MB. Current time: 7/8/16 3:56:50 AM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,597 MB. GUI used memory: 80 MB. Current time: 7/8/16 4:26:50 AM CDT

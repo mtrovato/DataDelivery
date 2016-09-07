@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# Vivado v2015.1 (64-bit)
+# SW Build 1215546 on Mon Apr 27 19:07:21 MDT 2015
+# IP Build 1209967 on Tue Apr 21 11:39:20 MDT 2015
+# Start of session at: Thu Jul  7 22:10:02 2016
+# Process ID: 32485
+# Log file: /home/xilinx/PRB/PRBF2_V6_32b_ila_V2_modtomeettiming/PRBF2_V6_32b/PRBF2_V6_32b.srcs/sources_1/new/vivado.log
+# Journal file: /home/xilinx/PRB/PRBF2_V6_32b_ila_V2_modtomeettiming/PRBF2_V6_32b/PRBF2_V6_32b.srcs/sources_1/new/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/xilinx/PRB/PRBF2_V6_32b_ila_V2_modtomeettiming/PRBF2_V6_32b/PRBF2_V6_32b.xpr
+reset_run FIFO_sort_by_BX_synth_1
+reset_run FIFO_sort_by_layer_synth_1
+reset_run clk_wiz_0_synth_1
+reset_run fifo_TX_RX_synth_1
+reset_run ila_stub_synth_1
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+set_property -dict [list CONFIG.C_PROBE0_WIDTH {1}] [get_ips ila_stub]
+generate_target all [get_files  /home/xilinx/PRB/PRBF2_V6_32b_ila_V2_modtomeettiming/PRBF2_V6_32b/PRBF2_V6_32b.srcs/sources_1/ip/ila_stub/ila_stub.xci]
+reset_run ila_stub_synth_1
+launch_run -jobs 4 ila_stub_synth_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+open_run impl_1
+close_project
+open_project /home/xilinx/PRB/aurora64b66b_40trans_2gtinstances_PRBF2IPmodtomeettiming_20062016_allsignalshortcircuited_4clkreplicainPRBF/newtop/newtop.xpr
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+reset_run impl_1 -prev_step 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1

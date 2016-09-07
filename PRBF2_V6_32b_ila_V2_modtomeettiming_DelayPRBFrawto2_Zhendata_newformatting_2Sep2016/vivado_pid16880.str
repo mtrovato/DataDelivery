@@ -1,0 +1,112 @@
+/*
+
+Vivado v2015.1 (64-bit)
+SW Build 1215546 on Mon Apr 27 19:07:21 MDT 2015
+Process ID: 16880
+
+Current time: 	9/6/16 3:25:18 PM CDT
+Time zone: 	Central Standard Time (US/Central)
+
+OS: CentOS release 6.5 (Final)
+Version: 2.6.32-431.23.3.el6.x86_64
+Architecture: amd64
+Available processors (cores): 8
+
+DISPLAY: localhost:11.0
+Screen size: 1680x1028
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_25 64-bit
+Java home: 	/home/xilinx/Vivado/2015.1/tps/lnx64/jre
+
+User name: 	root
+User directory: /home/xilinx/PRB/PRBF2_V6_32b_ila_V2_modtomeettiming_DelayPRBFrawto2_Zhendata_newformatting_2Sep2016
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+Vivado preferences path: /root/.Xilinx/Vivado/2015.1/vivado.ini
+Vivado layouts directory: /root/.Xilinx/Vivado/2015.1/layouts/application
+
+GUI allocated memory:	194 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 4,854 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// [GUI Memory]: 33 MB (+32122kb) [00:00:07]
+// [Engine Memory]: 4,854 MB (+4938009kb) [00:00:07]
+selectList(PAResourceEtoH.GettingStartedView_RECENT_PROJECTS, "/home/xilinx/PRB/PRBF2_V6_32b_ila_V2_modtomeettiming_DelayPRBFrawto2_Zhendata_newformatting_2Sep2016/PRBF2_V6_32b/PRBF2_V6_32b.xpr", 1); // t:v (JViewport:JComponent, cl:JFrame)
+// Opening Vivado Project: /home/xilinx/PRB/PRBF2_V6_32b_ila_V2_modtomeettiming_DelayPRBFrawto2_Zhendata_newformatting_2Sep2016/PRBF2_V6_32b/PRBF2_V6_32b.xpr. Version: Vivado v2015.1 
+// cp:P (cl:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project /home/xilinx/PRB/PRBF2_V6_32b_ila_V2_modtomeettiming_DelayPRBFrawto2_Zhendata_newformatting_2Sep2016/PRBF2_V6_32b/PRBF2_V6_32b.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 4,874 MB. GUI used memory: 25 MB. Current time: 9/6/16 3:25:21 PM CDT
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 49 MB (+14760kb) [00:00:18]
+// [GUI Memory]: 58 MB (+7072kb) [00:00:20]
+// [GUI Memory]: 70 MB (+10076kb) [00:00:20]
+// [GUI Memory]: 80 MB (+6661kb) [00:00:20]
+// [GUI Memory]: 87 MB (+2651kb) [00:00:20]
+// [GUI Memory]: 92 MB (+558kb) [00:00:25]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project /home/xilinx/PRB/PRBF2_V6_32b_ila_V2_modtomeettiming_DelayPRBFrawto2_Zhendata_newformatting_2Sep2016/PRBF2_V6_32b/PRBF2_V6_32b.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/xilinx/Vivado/2015.1/data/ip'. 
+// [GUI Memory]: 97 MB (+732kb) [00:00:32]
+// HMemoryUtils.trashcanNow. Engine heap size: 5,072 MB. GUI used memory: 58 MB. Current time: 9/6/16 3:25:43 PM CDT
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: PRBF2_V6_32b; location: /home/xilinx/PRB/PRBF2_V6_32b_ila_V2_modtomeettiming_DelayPRBFrawto2_Zhendata_newformatting_2Sep2016/PRBF2_V6_32b; part: xc7vx690tffg1927-2
+// Tcl Message: open_project: Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 5973.402 ; gain = 213.750 ; free physical = 2989 ; free virtual = 25898 
+// TclEventType: DG_GRAPH_STALE
+// Elapsed time: 28 seconds
+dismissDialog("Open Project"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 23 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRBF2_TOP - Behavioral (PRBF2_TOP.vhd)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRBF2_TOP - Behavioral (PRBF2_TOP.vhd), I_pll - clk_wiz_0 (clk_wiz_0.xci)]", 2, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// Elapsed time: 123 seconds
+selectCodeEditor("PRBF2_TOP.vhd", 152, 205); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("PRBF2_TOP.vhd", 153, 307); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 45 seconds
+selectCodeEditor("PRBF2_TOP.vhd", 200, 155); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("PRBF2_TOP.vhd", 200, 155, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// [GUI Memory]: 104 MB (+1771kb) [00:03:55]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRBF2_TOP - Behavioral (PRBF2_TOP.vhd), I_from_PRBF1_to_PRBF2_m1 - From_PRBF1_to_PRBF2_v2 - Behavioral (From PRBF1_to_PRBF2_v2.vhd)]", 18, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRBF2_TOP - Behavioral (PRBF2_TOP.vhd), I_from_PRBF1_to_PRBF2_m1 - From_PRBF1_to_PRBF2_v2 - Behavioral (From PRBF1_to_PRBF2_v2.vhd)]", 18, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PRBF2_TOP.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 32 seconds
+selectCodeEditor("PRBF2_TOP.vhd", 275, 189); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("PRBF2_TOP.vhd", 275, 189, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// Elapsed time: 33 seconds
+selectCodeEditor("PRBF2_TOP.vhd", 174, 154); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 19 seconds
+selectCodeEditor("PRBF2_TOP.vhd", 152, 191); // bj:J (JPanel:JComponent, cl:JFrame)
+// [GUI Memory]: 111 MB (+1674kb) [00:06:18]
+// Elapsed time: 463 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "From PRBF1_to_PRBF2_v2.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// [GUI Memory]: 117 MB (+594kb) [00:28:47]
+// HMemoryUtils.trashcanNow. Engine heap size: 5,076 MB. GUI used memory: 63 MB. Current time: 9/6/16 3:55:46 PM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,076 MB. GUI used memory: 61 MB. Current time: 9/6/16 4:33:57 PM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,076 MB. GUI used memory: 62 MB. Current time: 9/6/16 5:04:01 PM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,076 MB. GUI used memory: 61 MB. Current time: 9/6/16 5:34:01 PM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,076 MB. GUI used memory: 61 MB. Current time: 9/6/16 6:04:01 PM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,076 MB. GUI used memory: 61 MB. Current time: 9/6/16 6:34:01 PM CDT

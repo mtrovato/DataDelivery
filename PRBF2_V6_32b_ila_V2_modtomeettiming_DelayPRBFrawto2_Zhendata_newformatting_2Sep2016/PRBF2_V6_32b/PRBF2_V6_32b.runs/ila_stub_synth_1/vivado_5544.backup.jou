@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2015.1 (64-bit)
+# SW Build 1215546 on Mon Apr 27 19:07:21 MDT 2015
+# IP Build 1209967 on Tue Apr 21 11:39:20 MDT 2015
+# Start of session at: Mon Aug 24 15:47:58 2015
+# Process ID: 4910
+# Log file: /root/vivado_silvia/PRBF2_V4/PRBF2_V2/PRBF2_V2.runs/ila_stub_synth_1/ila_stub.vds
+# Journal file: /root/vivado_silvia/PRBF2_V4/PRBF2_V2/PRBF2_V2.runs/ila_stub_synth_1/vivado.jou
+#-----------------------------------------------------------
+source ila_stub.tcl -notrace

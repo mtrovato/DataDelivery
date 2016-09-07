@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="synth_1" LaunchDir="/home/xilinx/PRB/PRBF2_V6_32b_ila_V2_/PRBF2_V6_32b/PRBF2_V6_32b.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+
