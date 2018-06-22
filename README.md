@@ -5,4 +5,3 @@ AAABBB
 
 AAA
 AAA
-AAA
